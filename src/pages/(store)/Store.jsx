@@ -2,6 +2,7 @@ import Service from '../../components/Service'
 import ProductsOnOffer from '../../components/ProductsOnOffer'
 import ProductBanner from '../../components/ProductBanner'
 import SidePanel from '../../components/store/SidePanel'
+import MainPanel from '../../components/store/MainPanel'
 
 const Store = () => {
   return (
@@ -12,6 +13,8 @@ const Store = () => {
         <div className="container py-5">
           <div className="row g-4">
             <SidePanel/>
+
+            <MainPanel/>
           </div>
         </div>
       </div>

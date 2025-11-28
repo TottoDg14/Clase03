@@ -49,7 +49,7 @@ const CategoryList = () => {
     }
 
     return (
-        <div className="product-categories mb-4">
+        <div className="product mb-4">
             <h4>Products Categories</h4>
             <ul className="list-unstyled">
                 {categories.map((category, index) => (
